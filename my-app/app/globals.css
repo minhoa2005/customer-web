@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F5EFE0;
+  --foreground: #3E2723;
+}
+
+@theme {
+  --font-sans: var(--font-quicksand), system-ui, -apple-system, sans-serif;
+  --font-header: var(--font-fredoka), system-ui, -apple-system, sans-serif;
+  
+  --color-brand-primary: #A0622A;
+  --color-brand-primary-dark: #8A5120;
+  --color-brand-secondary: #C4A860;
+  --color-brand-accent: #5DA04D;
+  --color-brand-destructive: #C23A22;
+  --color-brand-bg: #F5EFE0;
+  --color-brand-fg: #3E2723;
+  --color-brand-card: #EDE4D0;
+  --color-brand-muted: #E8DFD0;
+  --color-brand-muted-fg: #6D5A4B;
+  --color-brand-border: #C5B69E;
+  --color-brand-input: #D4C8B0;
+  --color-brand-ring: #A0622A;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.font-header {
+  font-family: var(--font-header), sans-serif;
+}
+
