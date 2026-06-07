@@ -44,7 +44,7 @@ export default function CustomerWebHome() {
           <div className="absolute inset-0 bg-[#EDE4D0] rounded-[2rem] rotate-3 -z-10 shadow-md"></div>
           <div className="bg-[#FFFDF9] p-4 rounded-[2rem] shadow-xl border border-[#C5B69E]/50 overflow-hidden w-full h-full flex items-center justify-center">
             <Image
-              src="/hero_mockup.svg"
+              src="/proto-1.png"
               alt="Bé học kỹ năng với Skillbee"
               width={500}
               height={375}

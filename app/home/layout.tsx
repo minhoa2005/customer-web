@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Fredoka, Quicksand } from "next/font/google";
 import Link from "next/link";
 import "../globals.css";
+import Image from "next/image";
 
 const fredoka = Fredoka({
   variable: "--font-fredoka",
@@ -43,7 +44,7 @@ export default function CustomerWebLayout({
         <div className="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
           <Link href="/home" className="flex items-center gap-2 group">
             <span className="text-3xl font-extrabold font-header tracking-tight text-[#A0622A] group-hover:scale-105 transition-transform duration-200">
-              Skillbee🐝
+              Skillbee
             </span>
           </Link>
 
@@ -92,7 +93,7 @@ export default function CustomerWebLayout({
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="flex flex-col gap-3">
             <span className="text-2xl font-extrabold font-header text-[#A0622A]">
-              Skillbee🐝
+              Skillbee
             </span>
             <p className="text-sm text-[#6D5A4B] leading-relaxed max-w-xs">
               Nền tảng video tương tác nhập vai giúp trẻ 5–10 tuổi rèn luyện kỹ
