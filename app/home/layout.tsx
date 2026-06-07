@@ -152,7 +152,7 @@ export default function CustomerWebLayout({
                   href="mailto:support@skillbee.edu.vn"
                   className="hover:text-[#A0622A] underline"
                 >
-                  support@skillbee.edu.vn
+                  support@skillbee.study
                 </a>
               </li>
             </ul>

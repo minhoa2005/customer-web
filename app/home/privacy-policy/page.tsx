@@ -3,7 +3,8 @@ import { Shield, Eye, Lock, RefreshCw, Mail } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Chính Sách Bảo Mật - Skillbee",
-  description: "Chính sách bảo mật thông tin cá nhân và dữ liệu của bé trên nền tảng giáo dục Skillbee.",
+  description:
+    "Chính sách bảo mật thông tin cá nhân và dữ liệu của bé trên nền tảng giáo dục Skillbee.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -29,12 +30,28 @@ export default function PrivacyPolicyPage() {
             1. Dữ liệu Chúng tôi Thu thập (Data We Collect)
           </h2>
           <div className="text-[#6D5A4B] pl-7 flex flex-col gap-2">
-            <p>Khi phụ huynh đăng ký danh sách chờ hoặc sử dụng dịch vụ Skillbee, chúng tôi có thể thu thập các thông tin sau:</p>
+            <p>
+              Khi phụ huynh đăng ký danh sách chờ hoặc sử dụng dịch vụ Skillbee,
+              chúng tôi có thể thu thập các thông tin sau:
+            </p>
             <ul className="list-disc pl-5 flex flex-col gap-1.5">
-              <li><strong>Thông tin liên hệ của phụ huynh:</strong> Địa chỉ email, họ và tên khi phụ huynh tự nguyện cung cấp.</li>
-              <li><strong>Thông tin của bé:</strong> Họ tên của bé và độ tuổi (từ 0 đến 18 tuổi) nhằm mục đích cá nhân hóa trải nghiệm.</li>
-              <li><strong>Dữ liệu hoạt động:</strong> Lịch sử lựa chọn trong video tương tác, tiến trình học tập của bé, và huân chương đạt được trong ứng dụng.</li>
-              <li><strong>Mã CAPTCHA:</strong> Token xác minh hCaptcha nhằm mục đích chống spam và bảo mật biểu mẫu đăng ký.</li>
+              <li>
+                <strong>Thông tin liên hệ của phụ huynh:</strong> Địa chỉ email,
+                họ và tên khi phụ huynh tự nguyện cung cấp.
+              </li>
+              <li>
+                <strong>Thông tin của bé:</strong> Họ tên của bé và độ tuổi (từ
+                0 đến 18 tuổi) nhằm mục đích cá nhân hóa trải nghiệm.
+              </li>
+              <li>
+                <strong>Dữ liệu hoạt động:</strong> Lịch sử lựa chọn trong video
+                tương tác, tiến trình học tập của bé, và huân chương đạt được
+                trong ứng dụng.
+              </li>
+              <li>
+                <strong>Mã CAPTCHA:</strong> Token xác minh hCaptcha nhằm mục
+                đích chống spam và bảo mật biểu mẫu đăng ký.
+              </li>
             </ul>
           </div>
         </section>
@@ -46,12 +63,29 @@ export default function PrivacyPolicyPage() {
             2. Cách Chúng tôi Sử dụng Thông tin (How We Use It)
           </h2>
           <div className="text-[#6D5A4B] pl-7 flex flex-col gap-2">
-            <p>Chúng tôi cam kết sử dụng thông tin thu thập được cho các mục đích hợp pháp sau:</p>
+            <p>
+              Chúng tôi cam kết sử dụng thông tin thu thập được cho các mục đích
+              hợp pháp sau:
+            </p>
             <ul className="list-disc pl-5 flex flex-col gap-1.5">
-              <li><strong>Cá nhân hóa nội dung học tập:</strong> Sử dụng thông tin tuổi của bé để gợi ý và tùy chỉnh các tình huống video phù hợp với nhận thức của từng nhóm tuổi.</li>
-              <li><strong>Gửi thông báo và ưu đãi:</strong> Gửi thông tin cập nhật về ngày ra mắt chính thức, gửi mã giảm giá 30% và cập nhật các tính năng mới cho phụ huynh.</li>
-              <li><strong>Cải thiện sản phẩm:</strong> Phân tích lựa chọn của bé để nâng cao chất lượng nội dung các câu chuyện tương tác.</li>
-              <li><strong>Đảm bảo an toàn:</strong> Sử dụng CAPTCHA để ngăn chặn hành vi spam hoặc tấn công mạng vào hệ thống.</li>
+              <li>
+                <strong>Cá nhân hóa nội dung học tập:</strong> Sử dụng thông tin
+                tuổi của bé để gợi ý và tùy chỉnh các tình huống video phù hợp
+                với nhận thức của từng nhóm tuổi.
+              </li>
+              <li>
+                <strong>Gửi thông báo và ưu đãi:</strong> Gửi thông tin cập nhật
+                về ngày ra mắt chính thức, gửi mã giảm giá 30% và cập nhật các
+                tính năng mới cho phụ huynh.
+              </li>
+              <li>
+                <strong>Cải thiện sản phẩm:</strong> Phân tích lựa chọn của bé
+                để nâng cao chất lượng nội dung các câu chuyện tương tác.
+              </li>
+              <li>
+                <strong>Đảm bảo an toàn:</strong> Sử dụng CAPTCHA để ngăn chặn
+                hành vi spam hoặc tấn công mạng vào hệ thống.
+              </li>
             </ul>
           </div>
         </section>
@@ -64,10 +98,17 @@ export default function PrivacyPolicyPage() {
           </h2>
           <div className="text-[#6D5A4B] pl-7 flex flex-col gap-2">
             <p>
-              Skillbee coi trọng quyền riêng tư của trẻ em và gia đình. Chúng tôi <strong>không bán, không cho thuê, không trao đổi</strong> thông tin cá nhân của người dùng cho bất kỳ bên thứ ba nào vì mục đích thương mại.
+              Skillbee coi trọng quyền riêng tư của trẻ em và gia đình. Chúng
+              tôi <strong>không bán, không cho thuê, không trao đổi</strong>{" "}
+              thông tin cá nhân của người dùng cho bất kỳ bên thứ ba nào vì mục
+              đích thương mại.
             </p>
             <p>
-              Thông tin chỉ được chia sẻ với các nhà cung cấp dịch vụ cơ sở hạ tầng (ví dụ: Supabase để lưu trữ cơ sở dữ liệu, dịch vụ gửi email tự động) nhằm vận hành hệ thống một cách bảo mật nhất. Tất cả bên thứ ba này đều tuân thủ các quy định bảo mật thông tin nghiêm ngặt.
+              Thông tin chỉ được chia sẻ với các nhà cung cấp dịch vụ cơ sở hạ
+              tầng (ví dụ: Supabase để lưu trữ cơ sở dữ liệu, dịch vụ gửi email
+              tự động) nhằm vận hành hệ thống một cách bảo mật nhất. Tất cả bên
+              thứ ba này đều tuân thủ các quy định bảo mật thông tin nghiêm
+              ngặt.
             </p>
           </div>
         </section>
@@ -80,7 +121,11 @@ export default function PrivacyPolicyPage() {
           </h2>
           <div className="text-[#6D5A4B] pl-7 flex flex-col gap-2">
             <p>
-              Chúng tôi sử dụng cookies để lưu trữ trạng thái đăng nhập của phụ huynh và ghi nhớ một số tùy chỉnh giao diện người dùng. Phụ huynh hoàn toàn có thể cấu hình trình duyệt để từ chối nhận cookies, tuy nhiên điều này có thể ảnh hưởng đến một số chức năng tự động hóa của ứng dụng.
+              Chúng tôi sử dụng cookies để lưu trữ trạng thái đăng nhập của phụ
+              huynh và ghi nhớ một số tùy chỉnh giao diện người dùng. Phụ huynh
+              hoàn toàn có thể cấu hình trình duyệt để từ chối nhận cookies, tuy
+              nhiên điều này có thể ảnh hưởng đến một số chức năng tự động hóa
+              của ứng dụng.
             </p>
           </div>
         </section>
@@ -93,11 +138,21 @@ export default function PrivacyPolicyPage() {
           </h2>
           <div className="text-[#6D5A4B] pl-7 flex flex-col gap-2">
             <p>
-              Nếu phụ huynh có bất kỳ câu hỏi nào liên quan đến Chính sách bảo mật hoặc có nhu cầu yêu cầu xóa bỏ hoàn toàn dữ liệu cá nhân của bé khỏi hệ thống, vui lòng liên hệ với chúng tôi qua:
+              Nếu phụ huynh có bất kỳ câu hỏi nào liên quan đến Chính sách bảo
+              mật hoặc có nhu cầu yêu cầu xóa bỏ hoàn toàn dữ liệu cá nhân của
+              bé khỏi hệ thống, vui lòng liên hệ với chúng tôi qua:
             </p>
             <ul className="list-none flex flex-col gap-1.5 mt-2">
-              <li>📧 Email hỗ trợ: <a href="mailto:support@skillbee.edu.vn" className="text-[#A0622A] underline font-bold">support@skillbee.edu.vn</a></li>
-              <li>📍 Văn phòng: 123 Đường An toàn, Quận 1, TP. Hồ Chí Minh, Việt Nam</li>
+              <li>
+                📧 Email hỗ trợ:{" "}
+                <a
+                  href="mailto:support@skillbee.edu.vn"
+                  className="text-[#A0622A] underline font-bold"
+                >
+                  support@skillbee.study
+                </a>
+              </li>
+              <li>📍 Hoà Lạc, Thạch Thất, Hà Nội</li>
             </ul>
           </div>
         </section>
